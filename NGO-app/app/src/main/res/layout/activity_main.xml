@@ -1,125 +1,162 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:gravity="center">
-
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="105dp"
-        android:layout_height="102dp"
-        android:background="@drawable/about"
-        android:layout_alignParentStart = "true"
-        android:layout_alignParentTop = "true"
-        android:layout_marginStart = "155dp"
-        android:layout_marginTop = "552dp" />
-
-    <TextView
-        android:layout_width="102dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="155dp"
-        android:layout_marginTop="660dp"
-        android:text="   About Us"
-        android:textColor="#3399ff"
-        android:textSize="20dp"
-        android:textStyle="bold" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="102dp"
-        android:layout_height="102dp"
-        android:onClick = "browser1"
-        android:background="@drawable/web"
-        android:layout_alignParentStart = "true"
-        android:layout_alignParentTop = "true"
-        android:layout_marginStart = "27dp"
-        android:layout_marginTop = "552dp" />
-
-    <TextView
-        android:layout_width="102dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="27dp"
-        android:layout_marginTop="660dp"
-        android:text="Website"
-        android:textColor="#3399ff"
-        android:textSize="20dp"
-        android:textStyle="bold" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="102dp"
-        android:layout_height="102dp"
-        android:background="@drawable/organ"
-        android:layout_alignParentStart = "true"
-        android:layout_alignParentTop = "true"
-        android:layout_marginStart = "27dp"
-        android:layout_marginTop = "371dp" />
-
-    <TextView
-        android:layout_width="102dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="27dp"
-        android:layout_marginTop="480dp"
-        android:text="      Causes"
-        android:textColor="#3399ff"
-        android:textSize="19dp"
-        android:textStyle="bold" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="102dp"
-        android:layout_height="102dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="156dp"
-        android:layout_marginTop="371dp"
-        android:background="@drawable/pledge"
-        android:onClick="browser6" />
-
-    <TextView
-        android:layout_width="102dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="156dp"
-        android:layout_marginTop="485dp"
-        android:text=" Donation"
-        android:textColor="#3399ff"
-        android:textSize="20dp"
-        android:textStyle="bold" />
-
-
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="101dp"
-        android:layout_height="102dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="283dp"
-        android:layout_marginTop="372dp"
-        android:background="@drawable/chat"
-        android:onClick="browser5" />
-
-    <TextView
-        android:layout_width="102dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="285dp"
-        android:layout_marginTop="483dp"
-        android:text=" Connect with us"
-        android:textColor="#3399ff"
-        android:textSize="20dp"
-        android:textStyle="bold" />
-
-
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
 
     <com.smarteist.autoimageslider.SliderLayout
         android:id="@+id/imageSlider"
-        android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="1dp" />
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-</RelativeLayout>
+    </com.smarteist.autoimageslider.SliderLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="105dp"
+                    android:layout_height="102dp"
+                    android:background="@drawable/about" />
+
+                <TextView
+                    android:layout_width="102dp"
+                    android:layout_height="wrap_content"
+                    android:text="   About Us"
+                    android:textColor="#3399ff"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="102dp"
+                    android:layout_height="102dp"
+                    android:background="@drawable/web"
+                    android:onClick="browser1" />
+
+                <TextView
+                    android:layout_width="102dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Website"
+                    android:textColor="#3399ff"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="102dp"
+                    android:layout_height="102dp"
+                    android:background="@drawable/organ" />
+
+                <TextView
+                    android:layout_width="102dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="      Causes"
+                    android:textColor="#3399ff"
+                    android:textSize="19dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="102dp"
+                    android:layout_height="102dp"
+                    android:background="@drawable/pledge"
+                    android:onClick="browser6" />
+
+                <TextView
+                    android:layout_width="102dp"
+                    android:layout_height="wrap_content"
+                    android:text=" Donation"
+                    android:textColor="#3399ff"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="101dp"
+                    android:layout_height="102dp"
+                    android:background="@drawable/chat"
+                    android:onClick="browser5" />
+
+                <TextView
+                    android:layout_width="102dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text=" Connect with us"
+                    android:textColor="#3399ff"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

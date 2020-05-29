@@ -5,149 +5,141 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity2">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-    <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="7dp"
-            android:layout_marginTop="10dp"
-            android:text="About Foundation "
-            android:textColor="#FF723B"
-            android:textSize="24dp"
-            android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="About Foundation "
+                    android:textColor="#FF723B"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="20sp"
-            android:layout_marginEnd="10sp"
-            android:layout_marginTop="50sp"
-            android:textColor="#FF723B"
-            android:textStyle="italic"
-            android:textSize="17sp"
-            android:text="Ek Diwas Samajasathi (EDS) Foundation is founded by group of visionary officers and professionals willing to contribute by giving and sharing time, talent and treasure (तन मन धन) for the social welfare and development of underprivileged and needy community members.
-                          \n\n Our aim \n
-        \n1.Is to identifity and work with weaker and vulnerable section of the society.
-        \n2.To find solutions to the challenges threatening their lives and develop a harmonious civilization based upon quality, fraternity and social justice.
-        \n3.To nourish a culture of social service through creating energy and building strategic partnership with the government and non-government agencies.
-        \n\n Our Vision \n
-        \nTo play active role.To bring joy to the life of underprivileged by focusing on the major social problems.
-        To nourish a culture of social service through creating energy and building strategic partnership with the government and non-government agencies.
-        \n\n Our Mission \n
-        \nEDS Foundation will  create a welfare commuinity that will contribute to social welfare and development of underprivileged community member by
-        contributing time, talent and treasure.
-        \n\n Our Values \n
-        \nSharing and Caring.
-    "
-            android:background="@drawable/eds_back_pic" /><![CDATA[
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
 
-        />
+                android:textSize="17sp"
+                android:text="Ek Diwas Samajasathi (EDS) Foundation is founded by group of visionary
+                officers and professionals willing to contribute by giving and sharing time, talent
+                and treasure (तन मन धन) for the social welfare and development of underprivileged
+                and needy community members.
+                \n\n Our aim \n
+                \n1.Is to identifity and work with weaker and vulnerable section of the society.
+                \n2.To find solutions to the challenges threatening their lives and develop a
+                harmonious civilization based upon quality, fraternity and social justice.
+                \n3.To nourish a culture of social service through creating energy and building
+                strategic partnership with the government and non-government agencies.
+                \n\n Our Vision \n
+                \nTo play active role.To bring joy to the life of underprivileged by focusing on the
+                major social problems.
+                To nourish a culture of social service through creating energy and building
+                strategic partnership with the government and non-government agencies.
+                \n\n Our Mission \n
+                \nEDS Foundation will create a welfare commuinity that will contribute to social
+                welfare and development of underprivileged community member by
+                contributing time, talent "
+                    android:background="@drawable/eds_back_pic" />
+            </LinearLayout>
 
-        ]]>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="15sp"
-            android:layout_marginTop="1060sp"
-            android:text="Contact Information : "
-            android:textColor="#FF723B"
-            android:textSize="24sp"
-            android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Information : "
+                    android:textColor="#FF723B"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
-        <TextView
-            android:layout_width="20sp"
-            android:layout_height="20sp"
-            android:layout_marginStart="25sp"
-            android:layout_marginTop="1105sp"
-            android:background="@drawable/loc"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="50sp"
-            android:layout_marginTop="1100sp"
-            android:layout_marginEnd="20sp"
-            android:layout_marginBottom="25sp"
-            android:text="Survey No. 254/3/4,Swami Vivekanand Society,Opposite Clarion Park,\nAundh,Pune 411007 (MS) INDIA "
-            android:textColor="#FF723B"
-            android:textSize="19sp"
-            android:textStyle="italic" />
+                    <TextView
+                        android:layout_width="20sp"
+                        android:layout_height="20sp"
+                        android:background="@drawable/loc" />
 
-        <TextView
-            android:layout_width="20sp"
-            android:layout_height="20sp"
-            android:layout_marginStart="25sp"
-            android:layout_marginTop="1165sp"
-            android:layout_marginEnd="15sp"
-            android:layout_marginBottom="15sp"
-            android:background="@drawable/call"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Survey No. 254/3/4,Swami Vivekanand Society,Opposite Clarion Park,\nAundh,Pune 411007 (MS) INDIA "
+                        android:textColor="#FF723B"
+                        android:textSize="19sp"
+                        android:textStyle="italic" />
+                </LinearLayout>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="50sp"
-            android:layout_marginTop="1160sp"
-            android:layout_marginBottom="15sp"
-            android:layout_marginEnd="20sp"
-            android:text="+91-88888 54990"
-            android:textColor="#FF723B"
-            android:textSize="19sp"
-            android:textStyle="italic" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/button1"
-            android:layout_width="35sp"
-            android:layout_height="35sp"
-            android:layout_marginStart="135sp"
-            android:layout_marginTop="1200sp"
-            android:layout_marginEnd="20sp"
-            android:layout_marginBottom="25sp"
-            android:background="@drawable/twitter"
-            android:onClick="browser1" />
+                    <TextView
+                        android:layout_width="20sp"
+                        android:layout_height="20sp"
+                        android:background="@drawable/call" />
 
-        <Button
-            android:layout_width="80sp"
-            android:layout_height="40sp"
-            android:background="@drawable/youtube"
-            android:id = "@+id/button2"
-            android:onClick = "browser2"
-            android:layout_marginStart="190sp"
-            android:layout_marginTop="1200sp"
-            android:layout_marginBottom="25sp"
-            android:layout_marginEnd="20sp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="+91-88888 54990"
+                        android:textColor="#FF723B"
+                        android:textSize="19sp"
+                        android:textStyle="italic" />
+                </LinearLayout>
 
-        <Button
-            android:layout_width="40sp"
-            android:layout_height="40sp"
-            android:background="@drawable/linkedin"
-            android:id = "@+id/button3"
-            android:onClick = "browser3"
-            android:layout_marginStart="290sp"
-            android:layout_marginTop="1200sp"
-            android:layout_marginBottom="25sp"
-            android:layout_marginEnd="20sp"/>
+            </LinearLayout>
 
-        <Button
-            android:id="@+id/button8"
-            android:layout_width="40sp"
-            android:layout_height="40sp"
-            android:layout_marginStart="290sp"
-            android:layout_marginTop="1200sp"
-            android:layout_marginEnd="-195dp"
-            android:layout_marginBottom="25sp"
-            android:layout_toStartOf="@+id/button1"
-            android:background="@drawable/contact_us"
-            android:onClick = "browser4"
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
 
-            />
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="35sp"
+                    android:layout_height="35sp"
+                    android:background="@drawable/twitter"
+                    android:onClick="browser1" />
 
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="80sp"
+                    android:layout_height="40sp"
+                    android:background="@drawable/youtube"
+                    android:onClick="browser2" />
 
-    </RelativeLayout>
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="40sp"
+                    android:layout_height="40sp"
+                    android:background="@drawable/linkedin"
+                    android:onClick="browser3" />
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="40sp"
+                    android:layout_height="40sp"
+                    android:background="@drawable/contact_us"
+                    android:onClick="browser4"
+
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
 
 </ScrollView>
