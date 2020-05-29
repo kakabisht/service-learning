@@ -26,27 +26,27 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-
-                android:textSize="17sp"
+                    android:textColor="#000000"
+                    android:textSize="17sp"
                 android:text="Ek Diwas Samajasathi (EDS) Foundation is founded by group of visionary
-                officers and professionals willing to contribute by giving and sharing time, talent
-                and treasure (तन मन धन) for the social welfare and development of underprivileged
-                and needy community members.
+                \nofficers and professionals willing to contribute by giving and sharing time, talent
+                \nand treasure (तन मन धन) for the social welfare and development of underprivileged
+                \nand needy community members.
                 \n\n Our aim \n
                 \n1.Is to identifity and work with weaker and vulnerable section of the society.
                 \n2.To find solutions to the challenges threatening their lives and develop a
                 harmonious civilization based upon quality, fraternity and social justice.
                 \n3.To nourish a culture of social service through creating energy and building
-                strategic partnership with the government and non-government agencies.
+                \nstrategic partnership with the government and non-government agencies.
                 \n\n Our Vision \n
                 \nTo play active role.To bring joy to the life of underprivileged by focusing on the
                 major social problems.
-                To nourish a culture of social service through creating energy and building
-                strategic partnership with the government and non-government agencies.
+                \nTo nourish a culture of social service through creating energy and building
+                \nstrategic partnership with the government and non-government agencies.
                 \n\n Our Mission \n
                 \nEDS Foundation will create a welfare commuinity that will contribute to social
                 welfare and development of underprivileged community member by
-                contributing time, talent "
+                \ncontributing time, talent "
                     android:background="@drawable/eds_back_pic" />
             </LinearLayout>
 

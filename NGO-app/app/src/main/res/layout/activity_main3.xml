@@ -20,7 +20,7 @@
             android:layout_marginTop="5sp"
             android:textColor="#FF723B"
             android:textStyle="italic"
-            android:textSize="18sp"
+            android:textSize="22sp"
             android:text="Causes we care about"/>
 
         <TextView
@@ -37,7 +37,7 @@
     \n3.Promoting and Supporting Sports Activities in Village.
     \n4.Awareness Campaign for New Farming Techniques and Support System.
     "
-            android:textColor="#FF723B"
+            android:textColor="#DD2C00"
             android:textSize="22sp"
             android:textStyle="bold" /><![CDATA[
 
@@ -48,8 +48,8 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="204dp"
-            android:layout_marginStart="20sp"
+            android:layout_height="306dp"
+            android:layout_marginStart="10sp"
             android:layout_marginTop="5sp"
             android:layout_marginEnd="10sp"
             android:layout_marginBottom="8sp"
@@ -59,9 +59,9 @@
     \n2.Conducting Surveys, Study Tours and Research Works.
     \n3.Implementing CSR Projects.
     "
-            android:textColor="#FF723B"
-            android:textSize="18sp"
-            android:textStyle="italic"/><![CDATA[
+            android:textColor="#DD2C00"
+            android:textSize="22sp"
+            android:textStyle="bold"/><![CDATA[
 
         />
 
@@ -70,7 +70,7 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="258dp"
+            android:layout_height="306dp"
             android:layout_marginStart="10sp"
             android:layout_marginTop="5sp"
             android:layout_marginEnd="10sp"
@@ -82,7 +82,7 @@
     \n3.Supporting and Promoting Sports Activities to Rural India.
     \n4.Hostel Facilities for Needy Students.
     "
-            android:textColor="#FF723B"
+            android:textColor="#DD2C00"
             android:textSize="22sp"
             android:textStyle="bold" />
 
@@ -92,8 +92,8 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="217dp"
-            android:layout_marginStart="20sp"
+            android:layout_height="306dp"
+            android:layout_marginStart="10sp"
             android:layout_marginTop="5sp"
             android:layout_marginEnd="10sp"
             android:layout_marginBottom="8sp"
@@ -104,9 +104,9 @@
     \n3.Awareness Campaigns for Clean India Initiative.
     \n4.Promoting Initiative like Plant More Trees, Conserve Water, Save Water.
     "
-            android:textColor="#FF723B"
-            android:textSize="18sp"
-            android:textStyle="italic" />
+            android:textColor="#DD2C00"
+            android:textSize="22sp"
+            android:textStyle="bold" />
 
         ]>
         />
@@ -117,7 +117,7 @@
             android:layout_marginStart="10sp"
             android:layout_marginEnd="10sp"
             android:layout_marginTop="5sp"
-            android:textColor="#FF723B"
+            android:textColor="#DD2C00"
             android:textStyle="bold"
             android:textSize="22sp"
             android:background="@drawable/women_empowerment"
@@ -134,8 +134,8 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="357dp"
-            android:layout_marginStart="20sp"
+            android:layout_height="306dp"
+            android:layout_marginStart="10sp"
             android:layout_marginTop="5sp"
             android:layout_marginEnd="10sp"
             android:layout_marginBottom="8sp"
@@ -147,9 +147,9 @@
     \n4.Support Initiatives related to Health, Drinking Water, etc.
     \n5.Rural Skill Development Initiatives.
     "
-            android:textColor="#FF723B"
-            android:textSize="18sp"
-            android:textStyle="italic" />
+            android:textColor="#DD2C00"
+            android:textSize="22sp"
+            android:textStyle="bold" />
 
         ]>
         />
