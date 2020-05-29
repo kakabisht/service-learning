@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8sp"
+            android:layout_marginStart="10sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginTop="5sp"
+            android:textColor="#FF723B"
+            android:textStyle="italic"
+            android:textSize="18sp"
+            android:text="Causes we care about"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="306dp"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="5sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginBottom="8sp"
+            android:background="@drawable/rural_dev"
+            android:text="Rural development
+    \n1.Initiating and Supporting Activities Towards Developing Rural India.
+    \n2.Developing and Supporting Book Libraries in Rural Areas.
+    \n3.Promoting and Supporting Sports Activities in Village.
+    \n4.Awareness Campaign for New Farming Techniques and Support System.
+    "
+            android:textColor="#FF723B"
+            android:textSize="22sp"
+            android:textStyle="bold" /><![CDATA[
+
+        />
+
+        ]]>
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="204dp"
+            android:layout_marginStart="20sp"
+            android:layout_marginTop="5sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginBottom="8sp"
+            android:background="@drawable/csr_ini"
+            android:text="CSR Initiative
+    \n1.Partnering for CSR Initiatives of Govt. Bodies and Different Corporates to Ensure Smooth Implementation and Execution of Initiatives Aligned with Foundation's Objectives.
+    \n2.Conducting Surveys, Study Tours and Research Works.
+    \n3.Implementing CSR Projects.
+    "
+            android:textColor="#FF723B"
+            android:textSize="18sp"
+            android:textStyle="italic"/><![CDATA[
+
+        />
+
+        ]]>
+        />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="258dp"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="5sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginBottom="8sp"
+            android:background="@drawable/youtt_child"
+            android:text=" Child and Youth
+    \n1.Initiatives for Development of Child and Youth..
+    \n2.Student Guidance and Felicitation Program..
+    \n3.Supporting and Promoting Sports Activities to Rural India.
+    \n4.Hostel Facilities for Needy Students.
+    "
+            android:textColor="#FF723B"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        ]>
+        />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="217dp"
+            android:layout_marginStart="20sp"
+            android:layout_marginTop="5sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginBottom="8sp"
+            android:background="@drawable/sustainble_development"
+            android:text=" Sustainble_development
+    \n1.Initiating and Supporting Environment Friendly Social Initiatives.
+    \n2.Promotion of Green Energy as Part of the Foundation's Objectives.
+    \n3.Awareness Campaigns for Clean India Initiative.
+    \n4.Promoting Initiative like Plant More Trees, Conserve Water, Save Water.
+    "
+            android:textColor="#FF723B"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        ]>
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8sp"
+            android:layout_marginStart="10sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginTop="5sp"
+            android:textColor="#FF723B"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:background="@drawable/women_empowerment"
+            android:text=" Women_empowerment
+    \n1.Ensuring level playing ground for Women.
+    \n2.Women Guidance and Felicitation Program.
+    \n3.Promoting and Supporting Women Enterprenuership..
+    \n4.Beti Bachao, Beti Padao..
+    "
+             />
+
+        ]>
+        />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="357dp"
+            android:layout_marginStart="20sp"
+            android:layout_marginTop="5sp"
+            android:layout_marginEnd="10sp"
+            android:layout_marginBottom="8sp"
+            android:background="@drawable/workers"
+            android:text=" Women_empowerment
+    \n1.Supporting Needy and Underpriviledged Community Members..
+    \n2.Student Assistance Program.
+    \n3.Legal Guidance and Assistance Program for Student, Woman and Tribal.
+    \n4.Support Initiatives related to Health, Drinking Water, etc.
+    \n5.Rural Skill Development Initiatives.
+    "
+            android:textColor="#FF723B"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        ]>
+        />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="119dp"
+            android:layout_height="253dp"
+            android:layout_marginStart="290sp"
+            android:layout_marginTop="1200sp"
+            android:layout_marginEnd="-195dp"
+            android:layout_marginBottom="25sp"
+            android:layout_toStartOf="@+id/button8"
+            android:background="@drawable/contact_us"
+            android:onClick="browser5" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
